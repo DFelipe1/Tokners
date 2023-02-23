@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img {
@@ -17,6 +17,10 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.strong {
+    font-weight: bold;
 }
 
 .link {
@@ -67,7 +71,7 @@ a {
 
 .effect-image {
     width: 85%;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
